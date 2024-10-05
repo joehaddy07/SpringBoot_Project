@@ -23,7 +23,7 @@ pipeline {
     stage('Build with Maven') {
         steps {
              script {
-                     sh 'mvn -f path/to/pom.xml clean install'
+                     sh 'mvn clean install'
                    }
 
                 
